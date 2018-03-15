@@ -5,7 +5,7 @@
 楽天ブックスから取り込んでいます。 リストは、タブ区切りテキストとして「mybook.txt」ファイル
 に保存されます。
 
-Python 3が動作環境を用意してください。読み書き可能な任意のディレクトリーに「booksmanage.py」
+Python 3が動作する環境を用意してください。読み書き可能な任意のディレクトリーに「booksmanage.py」
 とmybook.txtを保存します。 「https://webservice.rakuten.co.jp/api/booksbooksearch/」に
 アクセスして「アプリID発行」をクリックし、ログインしてからアプリを作成します。表示されたアプリ
 IDに、booksmanage.pyの「アプリケーションID」を書き換えます。  
