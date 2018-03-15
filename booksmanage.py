@@ -2,7 +2,6 @@
 # coding: utf-8
 
 import requests
-import sys
 
 rakuten_book_api = "https://app.rakuten.co.jp/services/api/BooksBook/Search/20170404"
 app_id = "アプリケーションID"
