@@ -8,7 +8,7 @@
 Python 3が動作する環境を用意してください。読み書き可能な任意のディレクトリーに「booksmanage.py」
 とmybook.txtを保存します。 「 https://webservice.rakuten.co.jp/api/booksbooksearch/ 」に
 アクセスして「アプリID発行」をクリックし、ログインしてからアプリを作成します。表示された「アプリ
-ID」に、booksmanage.pyの「アプリケーションID」（8行目）を書き換えます。  
+ID」に、booksmanage.pyの「アプリケーションID」（7行目）を書き換えます。  
 
 次のように実行すると、アプリが起動します。  
 
