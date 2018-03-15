@@ -5,7 +5,7 @@ import requests
 import sys
 
 rakuten_book_api = "https://app.rakuten.co.jp/services/api/BooksBook/Search/20170404"
-app_id = "1079940343818007365"
+app_id = "アプリケーションID"
 
 def bookinfo(isbn):
 	response = requests.get(rakuten_book_api + "?applicationId=" + app_id + "&isbn=" + isbn)
