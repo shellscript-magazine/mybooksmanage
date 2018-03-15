@@ -14,7 +14,7 @@ def bookinfo(isbn):
 	else:
 		bookdata = isbn + "\t" + response.json()["Items"][0]["Item"]["title"] +"\t" + response.json()["Items"][0]["Item"]["author"] + "\n"
 		print(bookdata)
-		with open('bookdata.txt','a') as f:
+		with open('mybook.txt','a') as f:
 			f.write(bookdata)
 
 
