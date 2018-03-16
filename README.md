@@ -24,3 +24,4 @@ $ ./booksmanage
 mybook.txtにISBN、タイトル、著者名が保存されます。  
 ［Ctrl］キーを押しながら［C］キーを押すと、アプリが終了します。
 
+                                                            written by Jiro Aso
