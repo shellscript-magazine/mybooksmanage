@@ -28,8 +28,7 @@ mybook.txtにISBN、タイトル、著者名が保存されます。
 データベース管理システム「MySQL」に書籍データを保存するアプリ（booksmanagedb.py）を作成しました。
 「booksmanagedb.py」と「bookinfo.sql」を任意のディレクトリーに保存してください。  
 
-Ubuntu（16.04 LTS）の場合、次のようにして実行環境を作成します。      
-MySQLと、MySQLにpython 3プログラムからアクセスするための「mysql.connector」モジュールを導入します。
+Ubuntu（16.04 LTS）の場合、次のようにして実行環境を作成します。MySQLと、MySQLにpython 3プログラムからアクセスするための「mysql.connector」モジュールを導入します。
 MySQLの管理者パスワードの画面が開いたら、任意のパスワードを入力します。  
 
 $ sudo apt install -y mysql-server python3-mysql.connector     
@@ -63,7 +62,6 @@ $ ./booksmanage
 
 「ISBNコードを入力してください」が表示されたら、ISBN番号をバーコードから読み込ませたり、キーボ
 ードから入力したりします。楽天ブックスを検索して書籍のタイトルと著者名が表示されます。同時に
-bookinfoテーブルにISBN、タイトル、著者名が保存されます。   
-［Ctrl］キーを押しながら［C］キーを押すと、アプリが終了します。    
+bookinfoテーブルにISBN、タイトル、著者名が保存されます。［Ctrl］キーを押しながら［C］キーを押すと、アプリが終了します。    
 
 written by Jiro Aso
