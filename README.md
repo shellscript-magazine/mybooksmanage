@@ -16,7 +16,7 @@ $ python3 booksmanage.py
 
 あるいはbooksmanage.pyに実行権限を与え、直接実行します。  
 
-$ chmod +x booksmanage.py   
+$ chmod +x booksmanage.py     
 $ ./booksmanage  
 
 「ISBNコードを入力してください」が表示されたら、ISBN番号をバーコードから読み込ませたり、キーボ
@@ -45,7 +45,7 @@ $ sudo systemctl restart mysql  
 $ mysqladmin -u root create mybook -p     
 MySQL管理者パスワードを入力     
 
-$ mysql -u root -p mybook < bookinfo.sql      
+$ mysql -u root -p mybook < bookinfo.sql    
 MySQL管理者パスワードを入力    
 
 次のように実行すると、アプリが起動します。  
