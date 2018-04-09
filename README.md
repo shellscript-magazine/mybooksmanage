@@ -29,7 +29,7 @@ mybook.txtにISBN、タイトル、著者名が保存されます。
 「booksmanagedb.py」と「bookinfo.sql」を任意のディレクトリーに保存してください。  
 
 Ubuntu（16.04 LTS）の場合、次のようにして実行環境を作成します。MySQLと、MySQLにpython 3プログラムからアクセスするための「mysql.connector」モジュールを導入します。
-MySQLの管理者パスワードの画面が開いたら、任意のパスワードを入力します。  
+MySQLの管理者パスワードの設定画面が開いたら、任意のパスワードを入力します。  
 
 $ sudo apt install -y mysql-server python3-mysql.connector     
 
