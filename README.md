@@ -28,7 +28,7 @@ mybook.txtにISBN、タイトル、著者名が保存されます。
 データベース管理システム「MySQL」に書籍データを保存するアプリ（booksmanagedb.py）を作成しました。
 「booksmanagedb.py」と「bookinfo.sql」を任意のディレクトリーに保存してください。  
 
-Ubuntu（16.04 LTS）の場合、次のようにして実行環境を作成します。     
+Ubuntu（16.04 LTS）の場合、次のようにして実行環境を作成します。      
 MySQLと、MySQLにpython 3プログラムからアクセスするための「mysql.connector」モジュールを導入します。
 MySQLの管理者パスワードの画面が開いたら、任意のパスワードを入力します。  
 
@@ -48,6 +48,10 @@ MySQL管理者パスワードを入力
 $ mysql -u root -p mybook < bookinfo.sql    
 MySQL管理者パスワードを入力    
 
+「 https://webservice.rakuten.co.jp/api/booksbooksearch/ 」に
+アクセスして「アプリID発行」をクリックし、ログインしてからアプリを作成します。表示された「アプリ
+ID」に、booksmanagedb.pyの「アプリケーションID」（8行目）を書き換えます。booksmanagedb.pyの「MySQL管理者
+パスワード」（20行目）を、MySQLのインストール時に設定したパスワードに書き換えます。
 次のように実行すると、アプリが起動します。  
 
 $ python3 booksmanagedb.py    
