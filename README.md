@@ -73,7 +73,7 @@ $ python3 booksmanage2.py    
 
 あるいはbooksmanagedb.pyに実行権限を与え、直接実行します。  
  
-$ chmod +x booksmanage2.py     
+$ chmod +x booksmanage2.py
     $ ./booksmanagedb    
 
 「ISBNコードを入力してください」が表示されたら、ISBN番号をバーコードから読み込ませたり、キーボ
